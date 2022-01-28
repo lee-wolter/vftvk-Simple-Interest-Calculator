@@ -1,11 +1,29 @@
 body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
+h1{color:grey;font-family:verdana;}
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;/*300px*/
     padding:20px;
     border-radius:25px;
     margin: auto;
     /*align:center;*/
+}
+.formdiv {
+    padding-left: 70px;
+}
+.fieldtitle {
+    float: left;
+    /*margin-top: 20px;*/
+    width: 120px;
+}
+input {
+    float: left;
+}
+select {
+    float: left;
+}
+#result {
+    float: left;
+    padding-bottom: 20px;
 }
